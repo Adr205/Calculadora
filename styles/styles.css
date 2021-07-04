@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *before, *after{
+    box-sizing: inherit;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+/* Calculator */
+
+#calculator{
+    background-color: #333;
+    width: 50rem;
+    min-width: 40rem;
+    min-height: 60rem;
+
+    border: 1px solid red;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    overflow: auto;
+}
+
+#screen{
+    background:#ddd;
+    height: 10rem;
+}
+
+#input-area{
+    display: flex;
+}
+
+#input-area .row{
+    display: flex;
+}
+
+#input-area .button{
+    background: white;
+    min-height: 1rem;
+}
+
+.row{
+
+}
